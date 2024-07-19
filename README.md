@@ -1,4 +1,4 @@
-# Kodluyoruz Ilk Repo
+# Kodluyoruz Repo
 Bu repo Kodluyoruz GIT Eğitiminde oluşturulan ilk repo. İçerisinde bir adet README dosyası, bir adet de index.html barındırıyor.
 
 ![Proje Görseli](https://github.com/susarahmet/kodluyoruzilkrepo/blob/main/kodluyouz_GIT_egitimi_ekran_goruntusu.jpg)
