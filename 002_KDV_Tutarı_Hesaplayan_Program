@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        int tutar;
+        
+        System.out.println("Tutari giriniz: ");
+        tutar = input.nextInt();
+
+        double KDV18 = tutar*0.18;
+        double KDV08 = tutar*0.08;
+
+        double sonuc= tutar < 1000 ? KDV18 : KDV08; 
+        System.out.println(sonuc);
+        
+        input.close();
+    }
+}
