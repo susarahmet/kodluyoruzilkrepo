@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        
+        Scanner inp = new Scanner(System.in);
+        
+        int mat, fizik, turkce, kimya, muzik, tarih;
+        
+        System.out.println("Matematik notunu giriniz: ");
+        mat = inp.nextInt();
+        
+        System.out.println("Fizik notunu giriniz: ");
+        fizik = inp.nextInt();
+        
+        System.out.println("Türkce notunu giriniz: ");
+        turkce = inp.nextInt();
+        
+        System.out.println("Kimya notunu giriniz: ");
+        kimya = inp.nextInt();
+        
+        System.out.println("Muzik notunu giriniz: ");
+        muzik = inp.nextInt();
+        
+        System.out.println("Tarih notunu giriniz: ");
+        tarih = inp.nextInt();
+        
+        double ort = (mat + fizik + turkce + kimya + muzik + tarih) / 6.0;
+        System.out.println("Ortalama= " + ort);
+
+        String sonuc = ort < 60 ? "Kaldi" : "Gecti";
+        System.out.println(sonuc);
+        
+        inp.close();
+    }
+}
