@@ -1,0 +1,46 @@
+import java.util.Scanner;
+public class Main {
+  public static void main(String[] args) {
+
+
+  double a, e, d, m, p;
+  double aa, ee, dd, mm, pp, toplam;
+
+
+  a = 2.14 ; 
+  e = 3.67 ;
+  d = 1.11 ;
+  m = 0.95 ;
+  p = 5.00 ;
+
+
+
+  Scanner input = new Scanner(System.in);
+
+
+    System.out.println("Manavdan alinan armut icin kg bilgisi :");
+    aa = input.nextDouble();
+
+    System.out.println("Manavdan alinan elma icin kg bilgisi :");
+    ee = input.nextDouble();
+    
+    System.out.println("Manavdan alinan domates icin kg bilgisi :");
+    dd = input.nextDouble();
+    
+    System.out.println("Manavdan alinan muz icin kg bilgisi :");
+    mm = input.nextDouble();
+    
+    System.out.println("Manavdan alinan patlican icin kg bilgisi :");
+    pp = input.nextDouble();
+    
+    toplam = a*aa + d*dd + e*ee + m*mm + p*pp;
+
+    System.out.println("Toplam tutar : " + toplam);
+    
+
+    
+
+    
+
+  }
+}
