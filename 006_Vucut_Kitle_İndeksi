@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Main {
+  public static void main(String[] args) {
+
+
+    double k, b, vke;
+    Scanner input = new Scanner(System.in);
+
+    System.out.println("Lutfen boyunuzu (metre) giriniz :");
+    b = input.nextDouble();
+
+    System.out.println("Lutfen kilonuzu giriniz");
+    k = input.nextDouble();
+
+    vke = k / (b * b)  ;
+    System.out.println("Vucut Kitle indeksi: " + vke );
+
+    
+
+  }
+}
