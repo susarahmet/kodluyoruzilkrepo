@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Main {
+  public static void main(String[] args) {
+
+
+    int km;
+    Scanner input = new Scanner(System.in);
+    System.out.println("Gidilen km'yi giriniz.");
+    km = input.nextInt();
+    double a = 2.2 * km + 10 , b ;
+    //double b;
+    b = km > 4 ? a : 20 ; 
+    System.out.println("Tutar: " + b );
+
+    
+
+  }
+}
+
