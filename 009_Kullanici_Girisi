@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+        String userName, password;
+
+        System.out.println("Kullanici Adi giriniz: ");
+        userName = input.nextLine();
+
+        System.out.println("Parola giriniz: ");
+        password = input.nextLine();
+
+        if (userName.equals("user") && password.equals("abcde.012345")) {
+            System.out.println("Giris basarili :)");
+        } else {
+            System.out.println("Parola sifirlandi: Yeni parola icin deger giriniz: ");
+            password = input.nextLine();
+
+            if (password.equals("abcde.012345")) {
+                System.out.println("Hatali, yeni deger giriniz :)");
+            } else {
+                System.out.println("Yeni parola basariyla olusturuldu.");
+            }
+        }
+
+        input.close(); // 
+    }
+}
